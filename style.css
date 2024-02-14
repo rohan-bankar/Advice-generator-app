@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container{
+    margin: 200px 450px;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.advice{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: hsl(150, 100%, 66%);
+}
+
+.advice-text{
+    font-size: 28px;
+    font-weight: 800;
+    color:  hsl(193, 38%, 86%);
+}
+
+.divider-mobile{
+    display: none;
+}
+
+.dice-img{
+    position: relative;
+    top: 55px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+}
+
+.dice-img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px  hsl(150, 100%, 66%) ;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        margin: 20px;
+    }
+
+    .divider-desktop{
+        display: none;
+    }
+
+    .divider-mobile{
+        display: block;
+        width: 100%;
+    }
+}
